@@ -2,7 +2,8 @@
   "requires": true,
   "lockfileVersion": 1,
   "dependencies": {
-    "Express": "^3.0.1"
+    "Express": "^3.0.1",
+    "koa-compose": "^4.1.0"
   },
   "name": "pocnode",
   "version": "1.0.0",
