@@ -12,7 +12,7 @@
  *   ]))
 */
 
-/*const compose = require('koa-compose');*/
+const compose = require('koa-compose');
 const Koa = require('koa');
 const app = module.exports = new Koa();
 
@@ -46,11 +46,11 @@ async function respond(ctx, next) {
 
 // composed middleware
 
-/*const all = compose([
+const all = compose([
   responseTime,
   logger,
   respond
-]);*/
+]);
 
 app.use(all);
 if (!module.parent) app.listen(3000);
