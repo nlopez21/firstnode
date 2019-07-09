@@ -8,9 +8,9 @@ const router = new Router;
 
 
 
-var url = "mongodb://mongo:27017/";
-var mydb ="pocnode";
-var collectiondb = "collectiondb";
+var url = process.env.url;
+var mydb =process.env.mydb;
+var collectiondb = process.env.coll;
 
 
 router.get('/obtener', async (ctx) => {
