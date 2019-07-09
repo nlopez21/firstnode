@@ -1,0 +1,19 @@
+{
+  "name": "pocnode-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-mongo": "^1.8.1",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./exp/app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
