@@ -8,7 +8,7 @@ const router = new Router;
 
 
 
-var url = "mongodb://localhost:27017/";
+var url = "mongodb://172.30.188.93:27017/";
 var mydb ="pocnode";
 var collectiondb = "collectiondb";
 
